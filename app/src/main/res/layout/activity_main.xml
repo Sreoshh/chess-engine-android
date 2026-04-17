@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- TURN DISPLAY -->
+    <TextView
+        android:id="@+id/turnText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn: WHITE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#DDDDDD"/>
+
+    <!-- CHESS BOARD -->
+    <GridLayout
+        android:id="@+id/chessBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rowCount="8"
+        android:columnCount="8"/>
+
+    <!-- SCORE DISPLAY -->
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#EEEEEE"/>
+
+</LinearLayout>
