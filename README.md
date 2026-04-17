@@ -16,3 +16,4 @@ A playable chess application built with a custom engine and AI.
 * Android Studio
 
 
+> Screenshots are attached with the changelog.) (The Ui would be better, stay tuned </>)
